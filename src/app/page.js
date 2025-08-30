@@ -273,12 +273,14 @@ export default function Home() {
           </div>
           {/* Image Side */}
           <div className="relative w-full h-[400px] rounded-xl overflow-hidden border border-cyan-400/30 shadow-lg">
-            <img
-              src="/mypicture.jpg"
-              alt="Profile"
-              className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
-            />
-          </div>
+  <Image
+    src="/mypicture.jpg"
+    alt="Profile"
+    fill
+    className="object-cover hover:scale-105 transition-transform duration-700"
+  />
+</div>
+
 
           
         </div>
