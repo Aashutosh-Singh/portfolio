@@ -244,9 +244,9 @@ export default function Home() {
         </div>
       </nav>
       <section className="relative pt-24 pb-16 px-6 lg:px-12 z-10">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+        <div className="max-w-6xl mx-auto flex flex-col-reverse md:flex-row gap-12 items-center">
           {/* Text Side */}
-          <div className="text-center md:text-left space-y-6">
+          <div className="text-center md:basis-1/2 md:text-left space-y-6">
             <h1 className="text-4xl sm:text-5xl font-bold leading-tight">
               Hi, I&apos;m{" "}
               <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
@@ -256,7 +256,7 @@ export default function Home() {
             <p className="text-lg text-gray-300 max-w-xl mx-auto md:mx-0 leading-relaxed">
               Computer Science undergraduate and aspiring Software Engineer.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+            <div className="flex flex-col sm:flex-row md:flex-col gap-4 justify-center md:justify-start">
               <a
                 href="#projects"
                 className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-medium rounded-lg shadow-md hover:shadow-lg hover:from-cyan-400 hover:to-blue-500 transition-transform transform hover:scale-105"
