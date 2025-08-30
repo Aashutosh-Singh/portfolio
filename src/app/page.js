@@ -45,8 +45,9 @@ export default function Home() {
       description:
         "A modern, responsive personal portfolio built with Next.js, Tailwind CSS, and Framer Motion to showcase my skills and projects.",
       tech: ["Next.js", "Tailwind CSS", "Framer Motion"],
-      image: "/projects/portfolio.png", // replace with your screenshot
-      link: "#",
+      image: "/portfolio.png", // replace with your screenshot
+      link: "https://aashutoshsingh.vercel.app/",
+      gitlink:"https://github.com/Aashutosh-Singh/portfolio",
       icon: Globe,
     },
     {
@@ -56,6 +57,7 @@ export default function Home() {
       tech: ["React", "Node.js", "NextJs", "MongoDB", "Razorpay"],
       image: "/buymeapizza.png", // replace with your screenshot
       link: "https://buy-me-a-pizza.vercel.app/",
+      gitlink:"https://github.com/Aashutosh-Singh/GetMeAPizza",
       icon: ShoppingCart,
     },
     // {
@@ -65,6 +67,7 @@ export default function Home() {
     //   tech: ["React", "Node.js", "Express", "MongoDB"],
     //   image: "/projects/ecommerce.png", // replace with your screenshot
     //   link: "#",
+    // gitlink:"#",
     //   icon: ShoppingCart,
     // },
     {
@@ -74,6 +77,7 @@ export default function Home() {
       tech: ["React", "Express", "PostgreSQL"],
       image: "/projects/tasks.png",
       link: "#",
+      gitlink:"#",
       icon: CheckSquare,
     },
     {
@@ -83,6 +87,7 @@ export default function Home() {
       tech: ["C++", "Python", "DSA"],
       image: "/projects/dsa.png",
       link: "#",
+      gitlink:"#",
       icon: Terminal,
     },
   ];
@@ -494,7 +499,13 @@ export default function Home() {
                     href={project.link}
                     className="mt-4 inline-flex items-center text-purple-400 hover:text-purple-300 text-sm font-medium"
                   >
-                    View Project →
+                    View Live Project →
+                  </a>
+                  <a
+                    href={project.gitlink}
+                    className="mt-4 inline-flex items-center text-purple-400 hover:text-purple-300 text-sm font-medium"
+                  >
+                    Github link →
                   </a>
                 </div>
               </motion.div>
