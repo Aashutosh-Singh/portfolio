@@ -100,16 +100,16 @@ export default function Home() {
       gitlink:"#",
       icon: Terminal,
     },
-    {
-      title: "DSA & CLI Tools",
-      description:
-        "A collection of C++ and Python projects focused on Data Structures, Algorithms, and problem-solving utilities.",
-      tech: ["C++", "Python", "DSA"],
-      image: "/projects/dsa.png",
-      link: "#",
-      gitlink:"#",
-      icon: Terminal,
-    },
+    // {
+    //   title: "DSA & CLI Tools",
+    //   description:
+    //     "A collection of C++ and Python projects focused on Data Structures, Algorithms, and problem-solving utilities.",
+    //   tech: ["C++", "Python", "DSA"],
+    //   image: "/projects/dsa.png",
+    //   link: "#",
+    //   gitlink:"#",
+    //   icon: Terminal,
+    // },
   ];
   const contactInfo = [
     {
