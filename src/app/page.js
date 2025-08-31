@@ -71,14 +71,34 @@ export default function Home() {
     //   icon: ShoppingCart,
     // },
     {
-      title: "Task Manager App",
+      title: "Job Portal",
       description:
-        "A task management app to create, update, and organize tasks. Features authentication and responsive UI.",
-      tech: ["React", "Express", "PostgreSQL"],
-      image: "/projects/tasks.png",
+        "A platform to find next step in career. Simple to use Job Portal",
+      tech: ["React", "Express", "MongoDB"],
+      image: "/jobportal.png",
+      link: "https://jobportal-six-roan.vercel.app/",
+      gitlink:"https://github.com/Aashutosh-Singh/jobportal",
+      icon: CheckSquare,
+    },
+  //   {
+  //     title: "Task Manager App",
+  //     description:
+  //       "A task management app to create, update, and organize tasks. Features authentication and responsive UI.",
+  //     tech: ["React", "Express", "PostgreSQL"],
+  //     image: "/projects/tasks.png",
+  //     link: "#",
+  //     gitlink:"#",
+  //     icon: CheckSquare,
+  //   },
+  {
+      title: "TripX",
+      description:
+        "Platform to the experience of Tourism for Tourist. Help plan routes, find best place to visit and click picture, help make decision in time bound situation and budget.",
+      tech: ["react", "mongoDB/PostgreSQL", "express","google-map API"],
+      image: "/underdev.jpg",
       link: "#",
       gitlink:"#",
-      icon: CheckSquare,
+      icon: Terminal,
     },
     {
       title: "DSA & CLI Tools",
